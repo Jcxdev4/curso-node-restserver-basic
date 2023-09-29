@@ -1,0 +1,18 @@
+### GET Api
+GET http://localhost:8080/api/usuarios
+
+### GET Api con querys
+GET http://localhost:8080/api/usuarios?saludo=hola&persona=esmil&apikey=58943&page=20&limit=500
+
+### POST Api
+POST http://localhost:8080/api/usuarios
+Content-Type: application/json
+
+{
+  "app": "JavaScript",
+  "nombre": "Jose",
+  "edad": 23
+}
+
+### PUT con id 04 dinamico
+PUT http://localhost:8080/api/usuarios/04
